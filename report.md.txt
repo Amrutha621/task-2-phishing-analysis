@@ -1,0 +1,20 @@
+# 📄 Phishing Email Analysis Report
+
+## 📧 Sample Email:
+
+**From:** support@netflix-update.com  
+**Subject:** Urgent: Your Netflix Account Has Been Suspended  
+
+> Dear Customer,  
+> We could not process your recent payment.  
+> Please update your billing information to avoid suspension.  
+> Click here to verify your account: http://netflix.verify-info.com  
+
+## ⚠️ Phishing Indicators Identified:
+
+1. **Fake Sender Address** – The email is from `netflix-update.com`, which is not the official Netflix domain.
+2. **Suspicious Link** – The link (`verify-info.com`) is not a real Netflix website.
+3. **Urgent Language** – Creates fear by saying the account will be suspended.
+4. **Generic Greeting** – Uses “Dear Customer” instead of your real name.
+5. **No HTTPS** – The link is `http://` instead of `https://`, meaning it is not secure.
+6. **Unusual Request** – Asking the user to verify billing info through an untrusted link.
